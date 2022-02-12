@@ -1,0 +1,197 @@
+body {
+
+  
+    margin: 0;
+    }
+      { font-family: 'Abril Fatface', cursive;
+    font-family: 'Bangers', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Creepster', cursive;
+    font-family: 'DotGothic16', sans-serif;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Press Start 2P', cursive;
+    font-family: 'Rock 3D', cursive;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-family: 'Shizuru', cursive;
+    }
+    
+    {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #333;
+    }
+    
+    *,
+    *:before,
+    *:after
+    
+    {
+       box-sizing: boarder-box;
+    }
+    
+    
+    h1, h2, h3, h4, h5, h6 {
+    
+        margin: 0;
+    }
+    
+    
+    /* background */
+    .background {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: 
+    url("../images/FF.jpg") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position-x: 0px;
+    background-position-y: 0px;
+    }
+    
+    /* Container */
+    .container {
+    
+    width: 100%;
+    max-width: 1200%;
+    margin: 0 auto;
+    
+    }
+    /* Header */
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 30px;
+    
+    }
+    .header__inner {
+        width: 100%;
+        max-width: 880px;
+        margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(228, 82, 203);
+    }
+    /* Nav*/
+.nav {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    position: relative;
+color: rgb(228, 82, 203);
+text-decoration: none;
+transition: color 0.2s linear;
+text-align: center;
+}
+.nav__link:hover {
+    color: #333;
+    }
+   
+.nav__link::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+
+    background-color: rgb(228, 82, 203);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.nav__link:hover:after {
+    display: block;
+     }
+
+     /* Intro */
+     .intro {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 2500px;
+     }
+       
+
+.intro__subtitle {
+    font-size: 65px;
+    color: #333;
+    text-align: center;
+    margin: 20 auto 20;
+    text-transform: uppercase;
+line-height: 1;
+font-family: 'Press Start 2P', cursive;
+-webkit-text-stroke-color: rgb(250, 135, 164);
+-webkit-text-stroke-width: .2px;
+    }
+
+.intro__title {
+    color: rgb(228, 82, 203);
+font-size: 45px;
+font-weight: 700;
+text-transform: uppercase;
+line-height: 1;
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+margin: 50px;
+-webkit-text-stroke-color: #333;
+-webkit-text-stroke-width: .1px;
+}
+
+    .i__link {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 10px;
+        position: relative;
+    color: rgb(228, 82, 203);
+    text-decoration: none;
+    transition: color 0.2s linear;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+-webkit-text-stroke-width: .1px;
+    }
+    
+    .i__link:hover {
+     color: #333;
+    
+     -webkit-text-stroke-color: rgb(255, 255, 255);
+-webkit-text-stroke-width: .1px;
+    
+    }
+    
+    .i__link:hover:after {
+    display: block; b
+    
+    }
+
+/* text */
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+width: 100%;
+height: 100vh;
+}
+.text__l {
+font-size: 50px;
+color: rgb(228, 82, 203);
+font-family: 'Press Start 2P', cursive;
+text-align: center;
+}
